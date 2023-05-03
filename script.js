@@ -10,7 +10,7 @@ counters.forEach(item =>{
             item.innerText=Math.ceil(value+interval);
             setTimeout(()=>{
                 updateCounter();
-            },500);
+            },20);
         }
     }
     updateCounter();
